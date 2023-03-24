@@ -12,7 +12,7 @@ Step 2. download_file.py
 In this program, download_file function takes two arguments, url and the name you want for the downloaded file; however, the second argument is optional, which will grab the last part of the url to name the file. We will download the target file, "movielens.csv", from the url extracted from the txt file created in step 1.
 
 Step 3. proj_0.py
-This program creates a database with sqlite3. The file, "movielens.csv", will be inserted into the table, "movie_lens", with "movie_id" and "user_id" combined as a primary key based on the common sense, which a user could only rate a movie once. As for the second table, "top_1_in_20c", it's the table for storing the data of top 1 movie of each year in the 20th century, which is generated from a sql query with in the python code. This table would later be used for generating a bar chart.
+This program creates a database with sqlite3. The file, "movielens.csv", will be inserted into the table, "movie_lens", with "movie_id" and "user_id" combined as a primary key based on the common sense, which a user could only rate a movie once. As for the second table, "top_1_in_20c", it's the table for storing the data of top 1 movie of each year in the 20th century, which is generated from a sql query within the python code. This table would later be used for generating a bar chart.
 
 Step 4. bar_chart.py
 This program uses matplotlib library to create a bar chart showing every top movie of each yaer through 20th century according to the data created in step 3. The visualiztion can be easily shown using Jupyter.
