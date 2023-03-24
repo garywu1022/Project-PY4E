@@ -2,7 +2,7 @@
 This is my very first project after taking Dr. Chuck's Python for Everybody
 
 
-This project aims to scrape download links from the website provided in the courses, and download the target file for further data analysis.
+This project aims to scrape download links from the website provided in the courses, and download the target file for data visualization.
 (url: https://vincentarelbundock.github.io/Rdatasets/datasets.html)
 
 Step 1. scrape_links.py
