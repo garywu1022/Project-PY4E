@@ -8,6 +8,8 @@ This project aims to scrape download links from the website provided in the cour
 Step 1. scrape_links.py
 The website contains two types of files for downloading. Since we are aiming for the csv files, this program scrapes all download links for csv files using Beautifulsoup. The result will be a txt file, "to_download.txt", containing every download link in each line.
 
+<img width="1280" alt="Screen Shot 2023-04-17 at 1 26 27 PM" src="https://user-images.githubusercontent.com/128351507/232388614-633cfed9-781a-45f8-a327-5219f984e7a7.png">
+
 Step 2. download_file.py
 In this program, download_file function takes two arguments, url and the name you want for the downloaded file; however, the second argument is optional, which will grab the last part of the url to name the file. We will download the target file, "movielens.csv", from the url extracted from the txt file created in step 1.
 
