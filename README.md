@@ -28,5 +28,5 @@ This program creates a database with sqlite3. The file, "movielens.csv", will be
 Step 4. bar_chart.py
 This program uses matplotlib library to create a bar chart showing every top movie of each yaer through 20th century according to the data created in step 3. The visualiztion can be easily shown using Jupyter.
 
-![Screen Shot 2023-04-17 at 1 37 31 PM](https://user-images.githubusercontent.com/128351507/232392250-34f7b6d4-39e8-4e6c-bfb5-d4e85f2c78e5.png)
+![Screen Shot 2023-04-17 at 1 37 31 PM](https://user-images.githubusercontent.com/128351507/232392646-e4021b0c-5207-4cf2-b989-605ccbc26ee5.png)
 
