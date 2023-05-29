@@ -6,6 +6,7 @@ This project aims to scrape download links from the website provided in the cour
 (url: https://vincentarelbundock.github.io/Rdatasets/datasets.html)
 
 Step 1. scrape_links.py
+
 The website contains two types of files for downloading. Since we are aiming for the csv files, this program scrapes all download links for csv files using Beautifulsoup. The result will be a txt file, "to_download.txt", containing every download link in each line.
 
 <img width="1280" alt="Screen Shot 2023-04-17 at 1 26 27 PM" src="https://user-images.githubusercontent.com/128351507/232388614-633cfed9-781a-45f8-a327-5219f984e7a7.png">
